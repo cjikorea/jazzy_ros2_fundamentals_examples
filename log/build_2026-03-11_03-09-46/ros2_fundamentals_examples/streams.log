@@ -1,0 +1,99 @@
+[0.028s] Invoking command in '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/build/ros2_fundamentals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jongin/ros2_ws/src/ros2_fundamentals_examples -DCMAKE_INSTALL_PREFIX=/home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples
+[0.602s] -- The C compiler identification is GNU 13.3.0
+[1.285s] -- The CXX compiler identification is GNU 13.3.0
+[1.334s] -- Detecting C compiler ABI info
+[1.559s] -- Detecting C compiler ABI info - done
+[1.574s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.575s] -- Detecting C compile features
+[1.576s] -- Detecting C compile features - done
+[1.594s] -- Detecting CXX compiler ABI info
+[1.806s] -- Detecting CXX compiler ABI info - done
+[1.824s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.824s] -- Detecting CXX compile features
+[1.825s] -- Detecting CXX compile features - done
+[1.842s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.119s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.402s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.548s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.589s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.644s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.696s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.917s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.929s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[3.027s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.192s] -- Found rclpy: 7.1.9 (/opt/ros/jazzy/share/rclpy/cmake)
+[3.199s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.448s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.691s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.691s] -- Configured cppcheck include dirs: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/include
+[3.692s] -- Configured cppcheck exclude dirs and/or files: 
+[3.695s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.696s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.699s] -- Added test 'lint_cmake' to check CMake code style
+[3.702s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.713s] -- Added test 'uncrustify' to check C / C++ code style
+[3.713s] -- Configured uncrustify additional arguments: 
+[3.716s] -- Added test 'xmllint' to check XML markup files
+[3.722s] -- Configuring done (3.7s)
+[3.744s] -- Generating done (0.0s)
+[3.751s] -- Build files have been written to: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/build/ros2_fundamentals_examples
+[3.767s] Invoked command in '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/build/ros2_fundamentals_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jongin/ros2_ws/src/ros2_fundamentals_examples -DCMAKE_INSTALL_PREFIX=/home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples
+[3.769s] Invoking command in '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/build/ros2_fundamentals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jongin/ros2_ws/src/ros2_fundamentals_examples/build/ros2_fundamentals_examples -- -j4 -l4
+[3.874s] [ 50%] [32mBuilding CXX object CMakeFiles/minimal_cpp_publisher.dir/src/cpp_minimal_publisher.cpp.o[0m
+[3.893s] [ 50%] Built target ament_cmake_python_copy_ros2_fundamentals_examples
+[4.311s] running egg_info
+[4.315s] creating ros2_fundamentals_examples.egg-info
+[4.358s] writing ros2_fundamentals_examples.egg-info/PKG-INFO
+[4.358s] writing dependency_links to ros2_fundamentals_examples.egg-info/dependency_links.txt
+[4.358s] writing top-level names to ros2_fundamentals_examples.egg-info/top_level.txt
+[4.358s] writing manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[4.583s] reading manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[4.584s] writing manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[4.669s] [ 50%] Built target ament_cmake_python_build_ros2_fundamentals_examples_egg
+[13.585s] [100%] [32m[1mLinking CXX executable minimal_cpp_publisher[0m
+[14.294s] [100%] Built target minimal_cpp_publisher
+[14.322s] Invoked command in '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/build/ros2_fundamentals_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jongin/ros2_ws/src/ros2_fundamentals_examples/build/ros2_fundamentals_examples -- -j4 -l4
+[14.342s] Invoking command in '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/build/ros2_fundamentals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jongin/ros2_ws/src/ros2_fundamentals_examples/build/ros2_fundamentals_examples
+[14.363s] -- Install configuration: ""
+[14.363s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples
+[14.363s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples/py_minimal_publisher.py
+[14.363s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples/__init__.py
+[14.363s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples/py_minimal_subscriber.py
+[14.363s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/include
+[14.364s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/include/ros2_fundamentals_examples
+[14.364s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/minimal_cpp_publisher
+[14.366s] -- Set non-toolchain portion of runtime path of "/home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/minimal_cpp_publisher" to ""
+[14.366s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/pythonpath.sh
+[14.366s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/pythonpath.dsv
+[14.367s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info
+[14.367s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info/top_level.txt
+[14.367s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info/PKG-INFO
+[14.367s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info/SOURCES.txt
+[14.367s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info/dependency_links.txt
+[14.367s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples
+[14.368s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples/py_minimal_publisher.py
+[14.368s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples/__init__.py
+[14.368s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples/py_minimal_subscriber.py
+[14.426s] Listing '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples'...
+[14.426s] Compiling '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples/__init__.py'...
+[14.426s] Compiling '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples/py_minimal_publisher.py'...
+[14.426s] Compiling '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples/py_minimal_subscriber.py'...
+[14.439s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/py_minimal_publisher.py
+[14.439s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/py_minimal_subscriber.py
+[14.440s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ament_index/resource_index/package_run_dependencies/ros2_fundamentals_examples
+[14.440s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ament_index/resource_index/parent_prefix_path/ros2_fundamentals_examples
+[14.440s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/ament_prefix_path.sh
+[14.440s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/ament_prefix_path.dsv
+[14.440s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/path.sh
+[14.441s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/path.dsv
+[14.441s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.bash
+[14.441s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.sh
+[14.441s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.zsh
+[14.441s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.dsv
+[14.441s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.dsv
+[14.442s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ament_index/resource_index/packages/ros2_fundamentals_examples
+[14.442s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.442s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/cmake/ros2_fundamentals_examplesConfig.cmake
+[14.442s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/cmake/ros2_fundamentals_examplesConfig-version.cmake
+[14.442s] -- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.xml
+[14.446s] Invoked command in '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/build/ros2_fundamentals_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jongin/ros2_ws/src/ros2_fundamentals_examples/build/ros2_fundamentals_examples

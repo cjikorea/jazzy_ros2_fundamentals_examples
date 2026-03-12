@@ -1,0 +1,253 @@
+[0.000000] (-) TimerEvent: {}
+[0.000473] (ros2_fundamentals_examples) JobQueued: {'identifier': 'ros2_fundamentals_examples', 'dependencies': OrderedDict()}
+[0.002076] (ros2_fundamentals_examples) JobStarted: {'identifier': 'ros2_fundamentals_examples'}
+[0.029138] (ros2_fundamentals_examples) JobProgress: {'identifier': 'ros2_fundamentals_examples', 'progress': 'cmake'}
+[0.029958] (ros2_fundamentals_examples) Command: {'cmd': ['/usr/bin/cmake', '/home/jongin/ros2_ws/src/ros2_fundamentals_examples', '-DCMAKE_INSTALL_PREFIX=/home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples'], 'cwd': '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/build/ros2_fundamentals_examples', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'jongin', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jongin', 'OLDPWD': '/home/jongin/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1649', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jongin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jongin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jongin-desktop:@/tmp/.ICE-unix/1612,unix/jongin-desktop:/tmp/.ICE-unix/1612', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e642710c_151e_41af_8e5b_77463650a655', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SR70L3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/build/ros2_fundamentals_examples', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099658] (-) TimerEvent: {}
+[0.200033] (-) TimerEvent: {}
+[0.300428] (-) TimerEvent: {}
+[0.400774] (-) TimerEvent: {}
+[0.501192] (-) TimerEvent: {}
+[0.601574] (-) TimerEvent: {}
+[0.605296] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.701698] (-) TimerEvent: {}
+[0.802551] (-) TimerEvent: {}
+[0.902971] (-) TimerEvent: {}
+[1.003450] (-) TimerEvent: {}
+[1.103831] (-) TimerEvent: {}
+[1.204209] (-) TimerEvent: {}
+[1.287914] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.304327] (-) TimerEvent: {}
+[1.337154] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.404444] (-) TimerEvent: {}
+[1.504775] (-) TimerEvent: {}
+[1.561405] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.577076] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.578148] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.579331] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.597119] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.604872] (-) TimerEvent: {}
+[1.705208] (-) TimerEvent: {}
+[1.805617] (-) TimerEvent: {}
+[1.808945] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.826754] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.827121] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.827794] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.844515] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.905728] (-) TimerEvent: {}
+[2.006067] (-) TimerEvent: {}
+[2.106444] (-) TimerEvent: {}
+[2.122311] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.206539] (-) TimerEvent: {}
+[2.306841] (-) TimerEvent: {}
+[2.404700] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.406907] (-) TimerEvent: {}
+[2.507165] (-) TimerEvent: {}
+[2.551000] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.591535] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.607239] (-) TimerEvent: {}
+[2.646448] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.699138] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.707320] (-) TimerEvent: {}
+[2.807588] (-) TimerEvent: {}
+[2.907916] (-) TimerEvent: {}
+[2.919856] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.931819] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)\n'}
+[3.008031] (-) TimerEvent: {}
+[3.030327] (ros2_fundamentals_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[3.108161] (-) TimerEvent: {}
+[3.194784] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Found rclpy: 7.1.9 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[3.201556] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[3.208227] (-) TimerEvent: {}
+[3.308480] (-) TimerEvent: {}
+[3.408797] (-) TimerEvent: {}
+[3.451355] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.508892] (-) TimerEvent: {}
+[3.609440] (-) TimerEvent: {}
+[3.693573] (ros2_fundamentals_examples) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.694282] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/include\n'}
+[3.694636] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.698223] (ros2_fundamentals_examples) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.698545] (ros2_fundamentals_examples) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[3.702258] (ros2_fundamentals_examples) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.705034] (ros2_fundamentals_examples) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.709504] (-) TimerEvent: {}
+[3.715415] (ros2_fundamentals_examples) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.716211] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.719093] (ros2_fundamentals_examples) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.725031] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Configuring done (3.7s)\n'}
+[3.746670] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.753816] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Build files have been written to: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/build/ros2_fundamentals_examples\n'}
+[3.769610] (ros2_fundamentals_examples) CommandEnded: {'returncode': 0}
+[3.770288] (ros2_fundamentals_examples) JobProgress: {'identifier': 'ros2_fundamentals_examples', 'progress': 'build'}
+[3.771854] (ros2_fundamentals_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/build/ros2_fundamentals_examples', '--', '-j4', '-l4'], 'cwd': '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/build/ros2_fundamentals_examples', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'jongin', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jongin', 'OLDPWD': '/home/jongin/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1649', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jongin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jongin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jongin-desktop:@/tmp/.ICE-unix/1612,unix/jongin-desktop:/tmp/.ICE-unix/1612', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e642710c_151e_41af_8e5b_77463650a655', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SR70L3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/build/ros2_fundamentals_examples', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.809640] (-) TimerEvent: {}
+[3.876708] (ros2_fundamentals_examples) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/minimal_cpp_publisher.dir/src/cpp_minimal_publisher.cpp.o\x1b[0m\n'}
+[3.896123] (ros2_fundamentals_examples) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_ros2_fundamentals_examples\n'}
+[3.909763] (-) TimerEvent: {}
+[4.010101] (-) TimerEvent: {}
+[4.113556] (-) TimerEvent: {}
+[4.213848] (-) TimerEvent: {}
+[4.314193] (ros2_fundamentals_examples) StdoutLine: {'line': b'running egg_info\n'}
+[4.314483] (-) TimerEvent: {}
+[4.317839] (ros2_fundamentals_examples) StdoutLine: {'line': b'creating ros2_fundamentals_examples.egg-info\n'}
+[4.360779] (ros2_fundamentals_examples) StdoutLine: {'line': b'writing ros2_fundamentals_examples.egg-info/PKG-INFO\n'}
+[4.361072] (ros2_fundamentals_examples) StdoutLine: {'line': b'writing dependency_links to ros2_fundamentals_examples.egg-info/dependency_links.txt\n'}
+[4.361319] (ros2_fundamentals_examples) StdoutLine: {'line': b'writing top-level names to ros2_fundamentals_examples.egg-info/top_level.txt\n'}
+[4.361484] (ros2_fundamentals_examples) StdoutLine: {'line': b"writing manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'\n"}
+[4.414599] (-) TimerEvent: {}
+[4.514914] (-) TimerEvent: {}
+[4.585985] (ros2_fundamentals_examples) StdoutLine: {'line': b"reading manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'\n"}
+[4.586770] (ros2_fundamentals_examples) StdoutLine: {'line': b"writing manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'\n"}
+[4.615023] (-) TimerEvent: {}
+[4.672050] (ros2_fundamentals_examples) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_ros2_fundamentals_examples_egg\n'}
+[4.715147] (-) TimerEvent: {}
+[4.815592] (-) TimerEvent: {}
+[4.916324] (-) TimerEvent: {}
+[5.016662] (-) TimerEvent: {}
+[5.117003] (-) TimerEvent: {}
+[5.217337] (-) TimerEvent: {}
+[5.317694] (-) TimerEvent: {}
+[5.418029] (-) TimerEvent: {}
+[5.518359] (-) TimerEvent: {}
+[5.618695] (-) TimerEvent: {}
+[5.719032] (-) TimerEvent: {}
+[5.819403] (-) TimerEvent: {}
+[5.919854] (-) TimerEvent: {}
+[6.020267] (-) TimerEvent: {}
+[6.120596] (-) TimerEvent: {}
+[6.220919] (-) TimerEvent: {}
+[6.321319] (-) TimerEvent: {}
+[6.421686] (-) TimerEvent: {}
+[6.522054] (-) TimerEvent: {}
+[6.622407] (-) TimerEvent: {}
+[6.722761] (-) TimerEvent: {}
+[6.823139] (-) TimerEvent: {}
+[6.923532] (-) TimerEvent: {}
+[7.023913] (-) TimerEvent: {}
+[7.124307] (-) TimerEvent: {}
+[7.224678] (-) TimerEvent: {}
+[7.325048] (-) TimerEvent: {}
+[7.425426] (-) TimerEvent: {}
+[7.525785] (-) TimerEvent: {}
+[7.626129] (-) TimerEvent: {}
+[7.726486] (-) TimerEvent: {}
+[7.826909] (-) TimerEvent: {}
+[7.927326] (-) TimerEvent: {}
+[8.027712] (-) TimerEvent: {}
+[8.128040] (-) TimerEvent: {}
+[8.228363] (-) TimerEvent: {}
+[8.328687] (-) TimerEvent: {}
+[8.429012] (-) TimerEvent: {}
+[8.529335] (-) TimerEvent: {}
+[8.629663] (-) TimerEvent: {}
+[8.729999] (-) TimerEvent: {}
+[8.830313] (-) TimerEvent: {}
+[8.930626] (-) TimerEvent: {}
+[9.030951] (-) TimerEvent: {}
+[9.131291] (-) TimerEvent: {}
+[9.231617] (-) TimerEvent: {}
+[9.331945] (-) TimerEvent: {}
+[9.432287] (-) TimerEvent: {}
+[9.532625] (-) TimerEvent: {}
+[9.632963] (-) TimerEvent: {}
+[9.733311] (-) TimerEvent: {}
+[9.833630] (-) TimerEvent: {}
+[9.933958] (-) TimerEvent: {}
+[10.034298] (-) TimerEvent: {}
+[10.134631] (-) TimerEvent: {}
+[10.234965] (-) TimerEvent: {}
+[10.335306] (-) TimerEvent: {}
+[10.435636] (-) TimerEvent: {}
+[10.535976] (-) TimerEvent: {}
+[10.636315] (-) TimerEvent: {}
+[10.736642] (-) TimerEvent: {}
+[10.836976] (-) TimerEvent: {}
+[10.937314] (-) TimerEvent: {}
+[11.037695] (-) TimerEvent: {}
+[11.138069] (-) TimerEvent: {}
+[11.238454] (-) TimerEvent: {}
+[11.338797] (-) TimerEvent: {}
+[11.439146] (-) TimerEvent: {}
+[11.539534] (-) TimerEvent: {}
+[11.639885] (-) TimerEvent: {}
+[11.740201] (-) TimerEvent: {}
+[11.840541] (-) TimerEvent: {}
+[11.940862] (-) TimerEvent: {}
+[12.041190] (-) TimerEvent: {}
+[12.141555] (-) TimerEvent: {}
+[12.241878] (-) TimerEvent: {}
+[12.342196] (-) TimerEvent: {}
+[12.442524] (-) TimerEvent: {}
+[12.542851] (-) TimerEvent: {}
+[12.643175] (-) TimerEvent: {}
+[12.743506] (-) TimerEvent: {}
+[12.843821] (-) TimerEvent: {}
+[12.944139] (-) TimerEvent: {}
+[13.044469] (-) TimerEvent: {}
+[13.144844] (-) TimerEvent: {}
+[13.245431] (-) TimerEvent: {}
+[13.345975] (-) TimerEvent: {}
+[13.446346] (-) TimerEvent: {}
+[13.546716] (-) TimerEvent: {}
+[13.587821] (ros2_fundamentals_examples) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable minimal_cpp_publisher\x1b[0m\n'}
+[13.646842] (-) TimerEvent: {}
+[13.747213] (-) TimerEvent: {}
+[13.847605] (-) TimerEvent: {}
+[13.948034] (-) TimerEvent: {}
+[14.048448] (-) TimerEvent: {}
+[14.148833] (-) TimerEvent: {}
+[14.249201] (-) TimerEvent: {}
+[14.296718] (ros2_fundamentals_examples) StdoutLine: {'line': b'[100%] Built target minimal_cpp_publisher\n'}
+[14.324597] (ros2_fundamentals_examples) CommandEnded: {'returncode': 0}
+[14.325406] (ros2_fundamentals_examples) JobProgress: {'identifier': 'ros2_fundamentals_examples', 'progress': 'install'}
+[14.343980] (ros2_fundamentals_examples) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/build/ros2_fundamentals_examples'], 'cwd': '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/build/ros2_fundamentals_examples', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'jongin', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jongin', 'OLDPWD': '/home/jongin/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1649', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jongin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jongin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jongin-desktop:@/tmp/.ICE-unix/1612,unix/jongin-desktop:/tmp/.ICE-unix/1612', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e642710c_151e_41af_8e5b_77463650a655', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SR70L3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/build/ros2_fundamentals_examples', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[14.349280] (-) TimerEvent: {}
+[14.365556] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.365833] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples\n'}
+[14.365997] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples/py_minimal_publisher.py\n'}
+[14.366139] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples/__init__.py\n'}
+[14.366265] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples/py_minimal_subscriber.py\n'}
+[14.366382] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/include\n'}
+[14.366796] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/include/ros2_fundamentals_examples\n'}
+[14.366933] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/minimal_cpp_publisher\n'}
+[14.369127] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/minimal_cpp_publisher" to ""\n'}
+[14.369311] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/pythonpath.sh\n'}
+[14.369503] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/pythonpath.dsv\n'}
+[14.369674] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info\n'}
+[14.369877] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[14.370049] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[14.370175] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[14.370294] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[14.370462] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples\n'}
+[14.370572] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples/py_minimal_publisher.py\n'}
+[14.370712] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples/__init__.py\n'}
+[14.370853] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples/py_minimal_subscriber.py\n'}
+[14.428473] (ros2_fundamentals_examples) StdoutLine: {'line': b"Listing '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples'...\n"}
+[14.428747] (ros2_fundamentals_examples) StdoutLine: {'line': b"Compiling '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples/__init__.py'...\n"}
+[14.428835] (ros2_fundamentals_examples) StdoutLine: {'line': b"Compiling '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples/py_minimal_publisher.py'...\n"}
+[14.428936] (ros2_fundamentals_examples) StdoutLine: {'line': b"Compiling '/home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples/py_minimal_subscriber.py'...\n"}
+[14.442141] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/py_minimal_publisher.py\n'}
+[14.442394] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/py_minimal_subscriber.py\n'}
+[14.442660] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ament_index/resource_index/package_run_dependencies/ros2_fundamentals_examples\n'}
+[14.442897] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ament_index/resource_index/parent_prefix_path/ros2_fundamentals_examples\n'}
+[14.443076] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/ament_prefix_path.sh\n'}
+[14.443253] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/ament_prefix_path.dsv\n'}
+[14.443428] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/path.sh\n'}
+[14.443587] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/path.dsv\n'}
+[14.443750] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.bash\n'}
+[14.443920] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.sh\n'}
+[14.444090] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.zsh\n'}
+[14.444253] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.dsv\n'}
+[14.444426] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.dsv\n'}
+[14.444657] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ament_index/resource_index/packages/ros2_fundamentals_examples\n'}
+[14.444875] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.445053] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/cmake/ros2_fundamentals_examplesConfig.cmake\n'}
+[14.445207] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/cmake/ros2_fundamentals_examplesConfig-version.cmake\n'}
+[14.445386] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Installing: /home/jongin/ros2_ws/src/ros2_fundamentals_examples/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.xml\n'}
+[14.448803] (ros2_fundamentals_examples) CommandEnded: {'returncode': 0}
+[14.449573] (-) TimerEvent: {}
+[14.549950] (-) TimerEvent: {}
+[14.650319] (-) TimerEvent: {}
+[14.710894] (ros2_fundamentals_examples) JobEnded: {'identifier': 'ros2_fundamentals_examples', 'rc': 0}
+[14.713369] (-) EventReactorShutdown: {}
