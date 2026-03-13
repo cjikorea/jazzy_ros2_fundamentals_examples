@@ -23,7 +23,7 @@ from std_msgs.msg import String
 class MinimalPyPublisher(Node):
     def __init__(self):
             super().__init__('minimal_py_publisher')            
-            self.publisher_1 = self.create_publisher(String, '/py_exsample_topic',10)
+            self.publisher_1 = self.create_publisher(String, '/py_example_topic',10)
             timer_period = 0.5
             self.timer = self.create_timer(timer_period, self.timer_callback)
 
